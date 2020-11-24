@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col">
-        <h1 class="alert alert-primary text-center">DOMICILIOS</h1>
+        <h1 class="alert alert-primary text-center">PEDIDOS</h1>
     </div>
 </div>
 <div class="row">
@@ -19,11 +19,11 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th scope="col">IdUser</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Apellido</th>
-                        <th scope="col">Correo</th>
-                        <th scope="col">Contraseña</th>
+                        <th scope="col">IdPedido</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Metodo de Pago</th>
                     </tr>
                 </thead>
             </table>
