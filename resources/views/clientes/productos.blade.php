@@ -16,10 +16,10 @@
                             <a href="/productos"><img src="/images/imagen.jpeg" width="200" height="200" ></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-                            <a href="/inventarios"><img src="/images/images.jpeg" width="200" height="200" ></a>
+                            <a href="/productos"><img src="/images/images.jpeg" width="200" height="200" ></a>
                         </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-                        <a href="/vendedores"><img src="/images/maxresdefault.jpg" width="200" height="200" ></a>
+                        <a href="/productos"><img src="/images/maxresdefault.jpg" width="200" height="200" ></a>
                         </div>
                     </div>
                     <br>
