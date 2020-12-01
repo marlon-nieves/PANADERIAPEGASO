@@ -27,8 +27,6 @@ Route::get('/dueño/productos', [App\Http\Controllers\DuenoController::class, 'p
 Route::get('/dueño/pedidos', [App\Http\Controllers\DuenoController::class, 'pedidos'])->middleware('auth');
 Route::get('/dueño/clientes', [App\Http\Controllers\DuenoController::class, 'clientes'])->middleware('auth');
 
-Route::get('/carrito', [App\Http\Controllers\DuenoController::class, 'carrito'])->middleware('auth');
-
 /* ADMINISTRADOR */
 Route::get('/administrador', [App\Http\Controllers\AdministradorController::class, 'index'])->middleware('auth');
 Route::get('/administrador/domicilios', [App\Http\Controllers\AdministradorController::class, 'domicilios'])->middleware('auth');
@@ -37,3 +35,17 @@ Route::get('/administrador/clientes', [App\Http\Controllers\AdministradorControl
 Route::resource('/administrador/domiciliarios',  'App\Http\Controllers\DomiciliariosController')->middleware('auth');
 Route::resource('/administrador/productos',  'App\Http\Controllers\ProductosController')->middleware('auth');
 Route::resource('/administrador/vendedores',  'App\Http\Controllers\VendedoresController')->middleware('auth');
+
+/* VENDEDOR */
+Route::get('/vendedor', [App\Http\Controllers\AdministradorController::class, 'vendedor'])->middleware('auth');
+Route::get('/vendedor/compra', [App\Http\Controllers\AdministradorController::class, 'compra'])->middleware('auth');
+
+/* DOMICILIARIO */
+Route::get('/domiciliario', [App\Http\Controllers\DomiciliarioController::class, 'index'])->middleware('auth');
+Route::get('/domiciliario/ruta', [App\Http\Controllers\DomiciliarioController::class, 'ruta'])->middleware('auth');
+
+/* CLIENTE */
+Route::get('/cliente',[\App\Http\Controllers\ClientesController::class,'cliente'])->name('cliente');
+Route::get('/registro',[\App\Http\Controllers\ClientesController::class,'registro'])->name('registro');
+Route::get('/productos',[\App\Http\Controllers\ClientesController::class,'productos'])->name('productos');
+Route::get('/carrito', [App\Http\Controllers\ClientesController::class, 'carrito'])->middleware('auth');

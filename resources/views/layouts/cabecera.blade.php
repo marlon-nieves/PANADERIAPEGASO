@@ -7,18 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/app.css">
+
     
-    <div id="app" >
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" >
-            <div class="container"  >
-                <a class="navbar-brand" href="{{ url('productos') }}" >
-                    Panaderia Pegaso
-                </a>
-            </div>
-            <a class="btn btn-danger" href="/productos" role="button">Atrás</a>
-                          
-        </nav>
-    </div> 
 
   </head>
   <body style="background-color:#F5CBA7;">

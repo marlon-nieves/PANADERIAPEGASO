@@ -25,9 +25,4 @@ class DuenoController extends Controller
     {
         return view('dueño.clientes');
     }
-
-    public function carrito()
-    {
-        return view('cliente.carrito');
-    }
 }

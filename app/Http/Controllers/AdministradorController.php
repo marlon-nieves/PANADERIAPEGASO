@@ -25,4 +25,15 @@ class AdministradorController extends Controller
     {
         return view('administrador.clientes');
     }
+
+    public function vendedor()
+    {
+        return view('vendedor.vendedor');
+    }
+
+    public function compra()
+    {
+        return view('vendedor.compras');
+    }
+    
 }

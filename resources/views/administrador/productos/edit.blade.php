@@ -19,7 +19,7 @@
         {{ csrf_field() }}
             @csrf
             @method('PUT')
-            <div class="form-group">
+                <div class="form-group">
                     <label for="IdProduct">ID PRODCUTO</label>
                     <input type="string" class="form-control" id="IdProduct" name="IdProduct" placeholder="IdProduct"
                     value="{{old('IdProduct', $productos->IdProduct)}}">
