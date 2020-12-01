@@ -20,6 +20,6 @@ class ClientesController extends Controller
     }
     public function carrito()
     {
-        return view('cliente.carrito');
+        return view('clientes.carrito');
     }
 }
